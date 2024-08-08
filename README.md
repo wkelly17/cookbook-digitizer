@@ -1,5 +1,4 @@
-# bunrecipereader-v2
-
+# Cookbook digitizer to paprika
 To install dependencies:
 
 ```bash
@@ -28,6 +27,8 @@ This script shells out to several subprocesses.
   - For Everything else, it currently uses tesseract. 
 - AI 
   - The gemini free tier right now is pretty good, so it uses a gemini api key for cleaning up the ocr text. 
+- Paprika 
+  - I'm shaping these to import into paprika, but you can skip that part if you just want to read the pdfs and shape into your own arbitrary json shape. 
 
 
   <!-- todo: link to ocrit and mentioned tesseract.  -->
